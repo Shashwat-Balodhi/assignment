@@ -90,7 +90,18 @@ This will start the local development server for the browser-use web UI.
 
 ---
 
-## Step 6: Follow Along with the Video Tutorial
+
+## Step 6: Run the Web UI (Option 1 Setup)
+
+Run the WebUI with:
+
+```bash
+python webui.py --ip 127.0.0.1 --port 7788
+```
+
+---
+
+## Step 7: Follow Along with the Video Tutorial
 
 Refer to the recorded video tutorial for further guidance and demonstration of live setup steps:
 
