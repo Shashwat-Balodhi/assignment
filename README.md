@@ -44,21 +44,53 @@ cd web-ui
 
 ---
 
-## Step 4: Run the Web UI (Option 1 Setup)
+## Step 4: Set Up Python Environment
 
-Follow Option 1 as per the official `web-ui` instructions:
+Recommend using `uv` for managing the Python environment.
+
+### Using `uv` (recommended):
 
 ```bash
-# From inside the `web-ui` directory
-pip install -r requirements.txt
-python app.py
+uv venv --python 3.11
 ```
+
+### Activate the virtual environment:
+
+**Windows (Command Prompt):**
+
+```bash
+.venv\Scripts\activate
+```
+
+---
+
+## Step 5: Install Dependencies
+
+### Install Python packages:
+
+```bash
+uv pip install -r requirements.txt
+```
+
+### Install browsers for Playwright:
+
+```bash
+playwright install --with-deps
+```
+
+Or you can install specific browsers:
+
+```bash
+playwright install chromium --with-deps
+```
+
+---
 
 This will start the local development server for the browser-use web UI.
 
 ---
 
-## Step 5: Follow Along with the Video Tutorial
+## Step 6: Follow Along with the Video Tutorial
 
 Refer to the recorded video tutorial for further guidance and demonstration of live setup steps:
 
