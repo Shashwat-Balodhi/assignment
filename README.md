@@ -101,6 +101,13 @@ python webui.py --ip 127.0.0.1 --port 7788
 
 ---
 
+## Sample Prompt
+```bash
+Given an HMM booking ID 'SINI25432400' (write the full booking ID in a first field out of three at B/L No.) , retrieve the voyage number and arrival date from "https://www.hmm21.com/e-service/general/trackNTrace/TrackNTrace.do"
+```
+
+---
+
 ## Step 7: Follow Along with the Video Tutorial 
 
 Refer to the recorded video 📁 tutorial for further guidance and demonstration of live setup steps:
@@ -127,7 +134,4 @@ https://github.com/user-attachments/assets/38af42fc-5e16-4995-86b9-a3bf9ddc6fc4
 
 
 
-## Sample Prompt
-```bash
-Given an HMM booking ID 'SINI25432400' (write the full booking ID in a first field out of three at B/L No.) , retrieve the voyage number and arrival date from "https://www.hmm21.com/e-service/general/trackNTrace/TrackNTrace.do"
-```
+
